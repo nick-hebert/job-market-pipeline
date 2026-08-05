@@ -64,10 +64,20 @@ st.dataframe(
 # posted_at is when the source says the job was published; postings without
 # one (rare) are dropped from the chart only.
 st.subheader("Postings over time")
-by_month = (
+monthly = (
     filtered.dropna(subset=["posted_at"])
     .assign(month=lambda d: d["posted_at"].str[:7])  # YYYY-MM from ISO string
-    .groupby(["month", "company"])
+)
+# Show only the trailing 24 months: some boards keep evergreen postings
+# open for years, and a decade-long x-axis squashes the recent activity.
+window_start = (
+    pd.Timestamp(latest_run[:10]) - pd.DateOffset(months=23)
+).strftime("%Y-%m")
+in_window = monthly[monthly["month"] >= window_start]
+older = len(monthly) - len(in_window)
+
+by_month = (
+    in_window.groupby(["month", "company"])
     .size()
     .unstack(fill_value=0)
     .sort_index()
@@ -76,3 +86,8 @@ if by_month.empty:
     st.caption("No postings match the current filters.")
 else:
     st.bar_chart(by_month)
+    if older:
+        st.caption(
+            f"{older} matching postings predate {window_start} and are not "
+            "shown — some boards keep evergreen postings open for years."
+        )
