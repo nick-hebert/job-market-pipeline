@@ -1,13 +1,17 @@
 [
   {"name": "GitLab",       "slug": "gitlab",      "source": "greenhouse"},
-  {"name": "Zapier",       "slug": "zapier",      "source": "greenhouse"},
-  {"name": "PostHog",      "slug": "posthog",     "source": "lever"},
   {"name": "Customer.io",  "slug": "customerio",  "source": "greenhouse"},
-  {"name": "Tremendous",   "slug": "tremendous",  "source": "lever"},
-  {"name": "Automattic",   "slug": "automattic",  "source": "lever"},
-  {"name": "Deel",         "slug": "deel",        "source": "greenhouse"},
-  {"name": "Buffer",       "slug": "buffer",      "source": "lever"},
   {"name": "Dropbox",      "slug": "dropbox",     "source": "greenhouse"},
-  {"name": "Doist",        "slug": "doist",       "source": "lever"},
-  {"name": "Grafana Labs", "slug": "grafanalabs", "source": "greenhouse"}
+  {"name": "Grafana Labs", "slug": "grafanalabs", "source": "greenhouse"},
+  {"name": "Duolingo",     "slug": "duolingo",    "source": "greenhouse"},
+  {"name": "Figma",        "slug": "figma",       "source": "greenhouse"},
+  {"name": "Reddit",       "slug": "reddit",      "source": "greenhouse"},
+  {"name": "Vercel",       "slug": "vercel",      "source": "greenhouse"},
+  {"name": "Palantir",     "slug": "palantir",    "source": "lever"},
+  {"name": "Zoox",         "slug": "zoox",        "source": "lever"},
+  {"name": "Veeva",        "slug": "veeva",       "source": "lever"},
+  {"name": "Match Group",  "slug": "matchgroup",  "source": "lever"},
+  {"name": "Outreach",     "slug": "outreach",    "source": "lever"},
+  {"name": "Swile",        "slug": "swile",       "source": "lever"},
+  {"name": "Highspot",     "slug": "highspot",    "source": "lever"}
 ]

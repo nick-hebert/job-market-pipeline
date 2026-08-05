@@ -110,7 +110,14 @@ def fetch_board(source, slug):
     except ValueError:
         return [], "invalid JSON in response"
     # Greenhouse wraps the list in {"jobs": [...]}; Lever returns a bare list.
-    postings = data.get("jobs", []) if source == "greenhouse" else data
+    if source == "greenhouse":
+        postings = data.get("jobs", [])
+    else:
+        # Deleted Lever boards return 200 with {"ok": false, "error": "..."}
+        # instead of a 404, so anything that isn't a list means no board.
+        if not isinstance(data, list):
+            return [], "404"
+        postings = data
     return postings, None
 
 
