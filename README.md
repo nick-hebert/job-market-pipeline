@@ -6,7 +6,6 @@ and serves them to a Streamlit dashboard, SQL queries, and CSV exports for
 Tableau. Everything runs locally and free — no cloud, no scheduler, no keys.
 
 ![Dashboard screenshot](docs/screenshot.png)
-<!-- TODO: add docs/screenshot.png (screenshot of the Streamlit app) -->
 
 ## Architecture
 
