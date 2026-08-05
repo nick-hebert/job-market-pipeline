@@ -1,8 +1,8 @@
 """Export jobs.db to CSV files for Tableau (or any other BI tool).
 
 Writes:
-  exports/jobs_export.csv   - the full clean jobs table, one row per posting
-  exports/daily_counts.csv  - per-company-per-month posting counts
+  exports/jobs_export.csv    - the full clean jobs table, one row per posting
+  exports/monthly_counts.csv - per-company-per-month posting counts
 
 Run it with:  python export_for_tableau.py
 """
@@ -36,10 +36,10 @@ def main():
         .reset_index()
         .sort_values(["company", "month"])
     )
-    counts.to_csv(EXPORT_DIR / "daily_counts.csv", index=False)
+    counts.to_csv(EXPORT_DIR / "monthly_counts.csv", index=False)
 
     print(f"Wrote {len(jobs)} rows to exports/jobs_export.csv")
-    print(f"Wrote {len(counts)} rows to exports/daily_counts.csv")
+    print(f"Wrote {len(counts)} rows to exports/monthly_counts.csv")
 
 
 if __name__ == "__main__":
