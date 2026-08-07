@@ -7,11 +7,11 @@ Customer.io,2026-08,1,1
 Dropbox,2025-07,1,1
 Dropbox,2025-10,1,1
 Dropbox,2025-12,1,1
-Dropbox,2026-04,2,2
+Dropbox,2026-04,4,4
 Dropbox,2026-05,2,2
 Dropbox,2026-06,7,7
 Dropbox,2026-07,17,17
-Dropbox,2026-08,6,6
+Dropbox,2026-08,7,7
 Duolingo,2025-10,2,0
 Duolingo,2025-12,1,0
 Duolingo,2026-01,4,0
@@ -21,7 +21,7 @@ Duolingo,2026-04,4,0
 Duolingo,2026-05,9,0
 Duolingo,2026-06,17,0
 Duolingo,2026-07,19,1
-Duolingo,2026-08,2,0
+Duolingo,2026-08,3,0
 Figma,2024-07,1,0
 Figma,2024-11,1,0
 Figma,2025-01,4,0
@@ -40,22 +40,22 @@ Figma,2026-04,11,0
 Figma,2026-05,16,0
 Figma,2026-06,36,0
 Figma,2026-07,40,0
-Figma,2026-08,4,0
+Figma,2026-08,5,0
 GitLab,2026-03,9,7
 GitLab,2026-04,12,9
 GitLab,2026-05,16,16
 GitLab,2026-06,29,27
 GitLab,2026-07,110,98
-GitLab,2026-08,9,9
+GitLab,2026-08,24,23
 Grafana Labs,2025-12,1,1
 Grafana Labs,2026-01,2,2
 Grafana Labs,2026-02,1,1
 Grafana Labs,2026-03,3,3
 Grafana Labs,2026-04,4,4
-Grafana Labs,2026-05,18,18
+Grafana Labs,2026-05,23,23
 Grafana Labs,2026-06,20,20
 Grafana Labs,2026-07,87,87
-Grafana Labs,2026-08,3,3
+Grafana Labs,2026-08,19,19
 Highspot,2024-11,1,1
 Highspot,2025-11,1,0
 Highspot,2025-12,1,0
@@ -78,15 +78,18 @@ Match Group,2026-03,3,0
 Match Group,2026-04,7,0
 Match Group,2026-05,5,0
 Match Group,2026-06,22,0
-Match Group,2026-07,32,0
-Match Group,2026-08,3,0
+Match Group,2026-07,33,0
+Match Group,2026-08,5,0
+Outreach,2024-09,1,0
 Outreach,2025-11,2,0
 Outreach,2025-12,1,0
+Outreach,2026-01,1,0
 Outreach,2026-02,1,0
 Outreach,2026-04,4,2
-Outreach,2026-05,2,1
+Outreach,2026-05,3,1
 Outreach,2026-06,7,6
 Outreach,2026-07,16,14
+Outreach,2026-08,1,1
 Palantir,2009-12,1,0
 Palantir,2012-12,1,0
 Palantir,2013-01,1,0
@@ -166,8 +169,8 @@ Reddit,2026-03,14,10
 Reddit,2026-04,9,7
 Reddit,2026-05,27,20
 Reddit,2026-06,69,37
-Reddit,2026-07,46,27
-Reddit,2026-08,3,1
+Reddit,2026-07,47,28
+Reddit,2026-08,6,2
 Swile,2024-01,1,0
 Swile,2024-04,2,2
 Swile,2024-05,1,0
@@ -182,6 +185,7 @@ Swile,2026-04,3,0
 Swile,2026-05,1,0
 Swile,2026-06,3,1
 Swile,2026-07,1,0
+Swile,2026-08,2,0
 Veeva,2019-05,5,2
 Veeva,2019-08,1,1
 Veeva,2020-04,3,2
@@ -195,6 +199,7 @@ Veeva,2021-09,1,1
 Veeva,2021-10,3,1
 Veeva,2021-11,5,5
 Veeva,2021-12,2,0
+Veeva,2022-02,1,1
 Veeva,2022-03,5,5
 Veeva,2022-04,7,1
 Veeva,2022-05,1,1
@@ -234,7 +239,7 @@ Veeva,2025-04,20,19
 Veeva,2025-05,8,8
 Veeva,2025-06,9,9
 Veeva,2025-07,19,18
-Veeva,2025-08,32,30
+Veeva,2025-08,36,30
 Veeva,2025-09,21,19
 Veeva,2025-10,31,29
 Veeva,2025-11,15,8
@@ -243,10 +248,10 @@ Veeva,2026-01,32,29
 Veeva,2026-02,32,26
 Veeva,2026-03,66,47
 Veeva,2026-04,43,39
-Veeva,2026-05,38,25
-Veeva,2026-06,54,49
+Veeva,2026-05,41,28
+Veeva,2026-06,57,52
 Veeva,2026-07,100,84
-Veeva,2026-08,5,5
+Veeva,2026-08,24,24
 Vercel,2024-01,2,0
 Vercel,2024-05,1,0
 Vercel,2024-07,1,0
@@ -264,6 +269,7 @@ Vercel,2026-04,6,0
 Vercel,2026-05,1,0
 Vercel,2026-06,16,2
 Vercel,2026-07,27,4
+Vercel,2026-08,2,1
 Zoox,2016-02,1,0
 Zoox,2022-05,1,0
 Zoox,2023-05,1,0
@@ -283,7 +289,7 @@ Zoox,2025-05,2,0
 Zoox,2025-06,1,0
 Zoox,2025-07,1,0
 Zoox,2025-08,2,0
-Zoox,2025-09,1,0
+Zoox,2025-09,2,0
 Zoox,2025-10,7,0
 Zoox,2025-11,3,0
 Zoox,2025-12,4,0
@@ -294,4 +300,4 @@ Zoox,2026-04,16,0
 Zoox,2026-05,38,0
 Zoox,2026-06,45,0
 Zoox,2026-07,51,0
-Zoox,2026-08,10,0
+Zoox,2026-08,21,0
